@@ -1,0 +1,51 @@
+.card {
+  background-color: #f9f9f9;
+  border: 2px solid #477fb3;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  margin-top: 2rem;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.listItem {
+  border: 2px solid #477fb3;
+  border-radius: 4px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.info p {
+  margin: 0;
+  color: #333;
+}
+
+.info p strong {
+  color: #000;
+}
+
+.cancelButton {
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: white;
+  background-color: #477fb3;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.cancelButton:hover {
+  border: solid 2px #477fb3;
+  background-color: white;
+  color: #477fb3;
+}

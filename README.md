@@ -7,6 +7,7 @@ O projeto contsiste no desenvolvimento de um sistema de Gestão da Sala de Reuni
 
 ## Escopo
 - ### Objetivos:
+    - O objetivo principal deste projeto é desenvolver um MVP, utiliando Next.js e MongoDB, para o cliente  "Connect Coworking". A meta é substituir o processo manual de agendamento de salas por e-mail por um sistema digital de gerenciamento de reservas que ofereça CRUD para Administradores gerenciarem as salas e, crucialmente, que permita aos Usuários Comuns visualizar a disponibilidade e agendar reservas de forma eficiente e segura, impedindo rigorosamente qualquer conflito de horário.
 
 - ## Pubico-Alvo:
     - Administrador.

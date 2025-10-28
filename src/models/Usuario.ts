@@ -22,7 +22,7 @@ const UsuarioSchema: Schema<IUsuario> = new Schema({
     nome: {type: String, required: true},
     email: {type: String, required: true, unique: true},
     senha: {type: String, required: true, select: false},
-    funcao: {type: String, enum: ["cliente", "admin"], required: true}
+    funcao: {type: String, enum: ["user", "admin"], required: true}
 })
 
 //criptografia da senha antes de salvar no bamco de dados
