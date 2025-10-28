@@ -1,6 +1,8 @@
-import { redirect } from 'next/navigation';
-
-export default function HomePage() {
-  // Esta função redireciona o usuário para a sua página de login
-  redirect('/login');
+export default function Home() {
+  return (
+    <div>
+      <h1>Minha Sala de Reunião</h1>
+      <p>Bem-vindo ao projeto!</p>
+    </div>
+  )
 }
